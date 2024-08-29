@@ -11,7 +11,7 @@ import Client, {
   import { SubscribeRequestPing } from "@triton-one/yellowstone-grpc/dist/grpc/geyser";
   import { VersionedTransactionResponse } from "@solana/web3.js";
 
- //YMyDOr87OBzT6TWr 
+
   interface SubscribeRequest {
     accounts: { [key: string]: SubscribeRequestFilterAccounts };
     slots: { [key: string]: SubscribeRequestFilterSlots };
