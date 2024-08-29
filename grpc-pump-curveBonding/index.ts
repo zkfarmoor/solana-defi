@@ -13,7 +13,7 @@ import Client, {
 import { tOutPut } from "./utils/transactionOutput";
 import { publicKey } from "@solana/buffer-layout-utils";
 const pumpfun = '6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P';
- //YMyDOr87OBzT6TWr 
+
  const api = 'api'
 const connection = new Connection(`https://rpc.shyft.to?api_key=${api}`, 'confirmed');
   interface SubscribeRequest {
