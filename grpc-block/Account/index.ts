@@ -114,20 +114,4 @@ import Client, {
     commitment: CommitmentLevel.CONFIRMED,
   };
   subscribeCommand(client, req);
-  
-//   function decodeRaydiumTxn(tx: VersionedTransactionResponse) {
-//     if (tx.meta?.err) return;
-  
-//     const allIxs = TXN_FORMATTER.flattenTransactionResponse(tx);
-  
-//     const raydiumIxs = allIxs.filter((ix) =>
-//       ix.programId.equals(RAYDIUM_PUBLIC_KEY),
-//     );
-  
-//     const decodedIxs = raydiumIxs.map((ix) =>
-//       RAYDIUM_PARSER.parseInstruction(ix),
-//     );
-  
-//     return decodedIxs;
-//   }
-  
+
